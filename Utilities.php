@@ -152,7 +152,7 @@ class Utilities
                     $shortcodeStyles = $shortcodes['styles'];
                 }
                 if (!empty($shortcodeStyles)) {
-                    $shortcodeStyles = $this->applyStyles($page['styles'][$styleIndex]);
+                    $shortcodeStyles = $this->applyStyles($shortcodeStyles);
                     echo "<div 
                     data-name='$title' 
                     data-anchor='$id' 
